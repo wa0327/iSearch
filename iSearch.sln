@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{75FFCCB4-EB07-414A-B3B7-DDDDE53F740A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{01C4E2D5-83EC-4A50-B0A3-86B1E10CAB60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iSearch", "source\iSearch\iSearch.csproj", "{F264EA82-3EC3-475B-A51A-E66C9D908B35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iSearch.Test", "test\iSearch.Test\iSearch.Test.csproj", "{CC8D4C43-8B66-4871-8B58-CE3FC55A9130}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5ECE0CC7-6D4F-4684-9DA4-9E9A549CBF62}"
+	ProjectSection(SolutionItems) = preProject
+		iSearch.vsmdi = iSearch.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = iSearch.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F264EA82-3EC3-475B-A51A-E66C9D908B35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F264EA82-3EC3-475B-A51A-E66C9D908B35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F264EA82-3EC3-475B-A51A-E66C9D908B35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F264EA82-3EC3-475B-A51A-E66C9D908B35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8D4C43-8B66-4871-8B58-CE3FC55A9130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8D4C43-8B66-4871-8B58-CE3FC55A9130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8D4C43-8B66-4871-8B58-CE3FC55A9130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8D4C43-8B66-4871-8B58-CE3FC55A9130}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F264EA82-3EC3-475B-A51A-E66C9D908B35} = {75FFCCB4-EB07-414A-B3B7-DDDDE53F740A}
+		{CC8D4C43-8B66-4871-8B58-CE3FC55A9130} = {01C4E2D5-83EC-4A50-B0A3-86B1E10CAB60}
+	EndGlobalSection
+EndGlobal
